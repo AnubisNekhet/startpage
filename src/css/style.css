@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    margin:  0;
+    border:  0;
+    padding: 0;
+    outline: 0;
+
+    list-style:      none;
+    text-decoration: none;
+    text-rendering:  optimizeLegibility;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-font-smoothing: subpixel-antialiased;
+    -ms-font-smoothing: subpixel-antialiased;
+    -o-font-smoothing: subpixel-antialiased;
+
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+*:not(:defined) {
+    display: none;
+}
+
+:root {
+    --accent: #f38ba8;
+    --bg: #1e1e2e;
+}
+
+body {
+    background-color: var(--bg);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23585858' fill-opacity='0.05'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+::selection {
+    background: none;
+}
+
+tabs-list {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+:root {
+    --ctp-rosewater: #F5E0DC;
+    --ctp-flamingo: #F2CDCD;
+    --ctp-pink: #F5C2E7;
+    --ctp-mauve: #CBA6F7;
+    --ctp-red: #F38BA8;
+    --ctp-maroon: #EBA0AC;
+    --ctp-peach: #FAB387;
+    --ctp-yellow: #F9E2AF;
+    --ctp-green: #A6E3A1;
+    --ctp-teal: #94E2D5;
+    --ctp-sky: #89DCEB;
+    --ctp-sapphire: #74C7EC;
+    --ctp-blue: #87B0F9;
+    --ctp-lavender: #B4BEFE;
+    --ctp-text: #C6D0F5;
+    --ctp-subtext1: #B3BCDF;
+    --ctp-subtext0: #A1A8C9;
+    --ctp-overlay2: #8E95B3;
+    --ctp-overlay1: #7B819D;
+    --ctp-overlay0: #696D86;
+    --ctp-surface2: #565970;
+    --ctp-surface1: #43465A;
+    --ctp-surface0: #313244;
+    --ctp-base: #1E1E2E;
+    --ctp-mantle: #181825;
+    --ctp-crust: #11111B;
+}
