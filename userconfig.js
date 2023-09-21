@@ -29,7 +29,7 @@ const default_config = {
     "q": "config-tab",
   },
   disabled: ['weather-forecast'],
-  localIcons: true,
+  localIcons: false,
   fastlink: "https://google.com",
   openLastVisitedTab: true,
   tabs: [
