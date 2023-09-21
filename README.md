@@ -1,24 +1,10 @@
-<div align="center">
-    <img src="/img/README-decorator.png" width=300/><br/>
-    <a href="https://github.com/AllJavi/tartarus-startpage/stargazers">
-        <img src="https://img.shields.io/github/stars/AllJavi/tartarus-startpage?color=a9b665&style=for-the-badge&logo=starship">
-    </a>
-    <a href="https://github.com/AllJavi/tartarus-startpage/issues">
-        <img src="https://img.shields.io/github/issues/AllJavi/tartarus-startpage?color=ea6962&style=for-the-badge&logo=codecov">
-    </a>
-    <a href="https://github.com/AllJavi/tartarus-startpage/network/members">
-        <img src="https://img.shields.io/github/forks/AllJavi/tartarus-startpage?color=7daea3&style=for-the-badge&logo=jfrog-bintray">
-    </a>
-    <a href="https://github.com/AllJavi/tartarus-startpage/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/license-MIT-orange.svg?color=d4be98&style=for-the-badge&logo=archlinux">
-    </a>
-</div>
+<h1 style="text-align: center">Startpage</h1>
 
 ## 💻 Preview
 
 https://github.com/AllJavi/tartarus-startpage/assets/49349604/9a2a3f4c-33ef-4eb3-9243-cc160a56a181
 
-This start page is based on the [dawn](https://github.com/b-coimbra/dawn) repository, which has even more functionality. I've tweaked the page's style a bit to match my [dotfiles](https://github.com/AllJavi/tartarus-dotfiles), and I've added some features to make it more comfortable.
+Kanged from [tartarus](https://github.com/AllJavi/tartarus-startpage) based on [dawn](https://github.com/b-coimbra/dawn)
 
 ## ⌨️ Keybindings
 | Hotkey                                            | Action                      |
@@ -65,6 +51,7 @@ By default, the defined search engines are:
 If you want to reduce the loading time of the icons, you could install the [icon font](https://github.com/AllJavi/tartarus-startpage/tree/master/src/fonts) locally and activate the option `"localIcons": true` in the config to disable the remote styles.
 
 ## Credit
+- [Tartarus Startpage](https://github.com/AllJavi/tartarus-startpage)
 - [Dawn Startpage](https://github.com/b-coimbra/dawn) ([preview](https://startpage.metaphoric.dev/))
 
 ## License
